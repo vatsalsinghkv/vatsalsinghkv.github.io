@@ -96,7 +96,7 @@ button.addEventListener('click', () => {
 
             colorText.style.borderColor = color;
 
-            h1.style.color = color;
+         //   h1.style.color = color;
 
         } 
 
@@ -130,7 +130,7 @@ button.addEventListener('click', () => {
 
         colorText.style.borderColor = color;
 
-        h1.style.color = color;
+    //    h1.style.color = color;
 
     }
 
