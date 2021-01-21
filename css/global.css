@@ -202,7 +202,7 @@ nav li {
 		
 		align-items: center;
 		justify-content: space-between;
-		padding: 15% 0 25% 0;
+		padding: 250px 0 300px 0;
 
 		box-sizing: border-box;
 		/* transform: translateX(100%); */
@@ -261,8 +261,10 @@ nav a:hover {
 }
 
 /*when text is selected*/
-p::selection, a::selection,
+p::selection,
+a::selection,
 span::selection,
+div::selection,
 h4::selection,
 h3::selection,
 h2::selection,
