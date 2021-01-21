@@ -1,0 +1,192 @@
+/*##########################
+		  HEADER
+##########################*/
+
+nav {
+    margin: 0;
+}
+
+#header
+{
+    background-color: #fff;
+    height: 500px;
+
+    position: relative;
+    top: -7px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+.containerOne {
+    margin: 0;
+    margin-left: 10%;
+}
+
+.containerTwo {
+    margin: 0;
+    margin-right: 15%;
+}
+
+#my-img {
+    border-radius: 50%;
+    width: 300px;
+    margin: 0;
+}
+
+@media screen and (max-width:768px) {
+    #header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .containerOne {
+        order: 2;
+    }
+
+    .containerTwo {
+        order: 1;;
+    }
+}
+
+h1
+{
+    margin: 25px 0;
+    color: #F95700;
+}
+
+.header h2, .header h4
+{
+    margin: 0;
+    color: #4D4D4D;
+}
+
+h2
+{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.container
+{
+    margin: 0 10%;
+}
+
+/*##########################
+		  CONTENT
+##########################*/
+
+.mini-nav
+{
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+
+    color: #4D4D4D; 
+    
+    margin-top: 10px;
+}
+
+.mini-nav ul
+{
+    display: flex;
+    justify-content: space-around;
+
+    list-style: none;
+    /* width: 30%; */
+    min-width: 250px;
+
+    padding: 0;
+}
+
+.mini-nav li
+{
+    cursor: pointer;
+}
+
+.content
+{
+    margin-top: 8%;  /*165px*/
+    margin-bottom: 14%;
+
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 50px;
+
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+@media (max-width: 688px)
+{
+    .content
+    {
+        margin: 8% 20% 14% 20%;
+    }
+}
+
+.box
+{
+    max-width: 400px; /*299px; */
+    background-color: #fff;
+
+    box-shadow: -15px 15px 20px #BFBFBF;
+}
+
+
+.box img
+{
+    width: 100%;
+    min-width: 250px;
+}
+
+.box a
+{
+    text-decoration: none;
+    color: black;
+
+    padding: 0;
+}
+
+/* Inside Box */
+.details
+{
+    padding: 10px;
+    padding-top: 0;
+    margin: 0;
+
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.details h6
+{
+    margin: 0;
+    
+    position: relative;
+    bottom: -5px;
+
+    color: #4D4D4D;
+}
+
+.main-details
+{
+    display: flex;
+    margin: 0;
+    padding-top: 0;
+}
+
+.main-details h4
+{
+    margin: 0;
+}
+
+.project-title
+{
+    width: 90%;
+}
+
