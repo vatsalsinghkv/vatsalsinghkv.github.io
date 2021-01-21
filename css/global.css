@@ -16,7 +16,7 @@ body
 
 	background-color: #efefef;
 
-	min-width: 438px;
+	/* min-width: 438px; */
 	overflow-x: hidden;
 }
 
@@ -442,13 +442,14 @@ footer
 
 .bottom
 {
+	margin: 0;
 	background: #F95700;
 	text-align: center;
 	color:white;
 	
 	font-size: 12px;
 	height: 30px;
-	width: 100%;
+	width: 100vw;
 
 	position: absolute;
 	left:0;
