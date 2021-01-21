@@ -33,7 +33,7 @@ nav {
 
 #my-img {
     border-radius: 50%;
-    width: 300px;
+    width: 250px;
     margin: 0;
 }
 
@@ -41,14 +41,23 @@ nav {
     #header {
         flex-direction: column;
         text-align: center;
+        justify-content: space-around;
+        padding: 20% 0;
+        box-sizing: border-box;
     }
-
+    
     .containerOne {
         order: 2;
+        margin: 0;
     }
-
+    
     .containerTwo {
-        order: 1;;
+        order: 1;
+        margin: 0;
+    }
+    
+    #my-img {
+        width: 60%;
     }
 }
 
@@ -125,7 +134,7 @@ h2
 {
     .content
     {
-        margin: 8% 20% 14% 20%;
+        margin: 8% 10% 14% 10%;
     }
 }
 
