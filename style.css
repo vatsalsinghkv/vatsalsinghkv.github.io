@@ -1,0 +1,515 @@
+/*##########################
+		  HEADER
+##########################*/
+
+.header {
+	background: url('/Images/Header.png');
+	background-size: 100%;	/*1400px*/
+	background-repeat: no-repeat;
+
+	width: 100%;
+	padding-top: 100px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	font-family: Raleway medium ;
+	color: #4D4D4D;
+
+	margin-bottom: 0;
+}
+
+@media (max-width: 900px) {
+	.header {
+		background-size: 850px;
+		min-width: auto;
+	}
+}
+
+@media (max-width: 600px) {
+	.header {
+		background-position-x: -150px;
+	}
+}
+
+.header h1 {
+	margin:0;
+	padding-top: 4%;
+}
+
+.header h2 {
+	padding-top: 5.5%;
+}
+
+#hbutton {
+	background: #F95700;
+
+	font-weight: bold;
+	font-size: 18px;
+
+	border: none;
+	color:white;
+	height: 38px;
+
+	vertical-align: center;
+	padding: 5px 25px;
+	margin:5%;
+
+	cursor: pointer;
+}
+
+#hbutton:active {
+	transform: scale(0.9);
+}
+
+
+@media (max-width: 1100px) {
+	.header {
+		padding-top: 7%;
+	}
+
+	.header h1 {
+		font-size: 2.8rem;
+		padding-top: 3%;
+	}
+	
+	.header h2 {
+		font-size: 1.8rem;
+		padding-top: 4.5%;
+		letter-spacing: auto;
+	}
+
+	#hbutton {
+		font-size: 16px;
+		margin: 3.5%;
+	}
+}
+
+@media (max-width: 900px) {
+
+	.header h1 {
+		padding-top: 1%;
+	}
+	
+	#hbutton {
+		font-size: 14px;
+		margin-bottom: 4.5%;
+	}	
+}
+
+@media (max-width: 750px) {
+
+	.header h1 {
+		font-size: 2.3rem;
+		padding-top: 1.5%;
+	}
+	
+	.header h2 {
+		line-height: 2rem;
+		font-size: 1.5rem;
+		letter-spacing: .2rem;
+	}
+
+	#hbutton {
+		margin-bottom: 4.5%;
+	}	
+}
+
+
+.heading {
+	height: 100px;
+	background: white;
+	text-align: center;
+	padding: 80px 0 20px 0;
+
+	width: 100%;
+
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
+
+.heading h2 {
+	font-weight: 300;
+	margin: 0;
+}
+
+@media (max-width:1175px) {
+	.heading {
+		height: 70px;
+		padding-top: 40px;
+		padding-bottom: 0px;
+	}
+
+	.heading h2 {
+		font-size: 2.3rem;
+		padding-bottom: 0;
+	}
+}
+
+@media (max-width:750px) {
+	.heading {
+		padding-top: 30px;
+		height: 50px;
+	}
+
+	.heading h2 {
+		font-size: 1.8rem;
+	}
+}
+
+@media (max-width:580px) {
+	.heading {
+		/* padding-top: 20px; */
+		height: 45px;
+	}
+
+	/* .heading h2 {
+		font-size: 1.5rem;
+	} */
+}
+
+/*##########################
+		ORANGE BOX
+##########################*/
+
+.orange {
+	background:#F95700;
+	height: 400px;
+
+	margin: 0;
+	padding: 0 5%;
+	margin-bottom: 165px;
+
+	display: flex;
+	align-items:center;
+}
+
+.orange h3 {
+	margin-top: 35px;
+	position: relative;
+	top: -10px;
+}
+
+.orange p {
+	position: relative;
+	top: -25px;
+}
+
+.orange ul {
+	display: flex;
+	flex-direction: row;
+
+	padding: 0 5%;
+
+	justify-content: space-between;
+	align-self: center;
+
+	width: 100%;
+}
+
+.orange li {
+	list-style: none;
+	color: black;
+
+	/* margin: 20px; */
+	padding: 15px;
+
+	text-align: center;
+	background: white;
+
+	height: 210px;
+	width: 210px;
+
+	box-shadow: -30px 30px 60px #a03601;
+}
+
+.orange img {
+	height:100px;
+	position: relative;
+	top: 10px;
+}
+
+@media (max-width: 1300px) {
+
+	.orange ul{
+		padding: 0;
+	}
+}
+
+@media (max-width: 1175px) {
+	
+	.orange {
+		padding: 30px 0;
+		height: 250px;
+		margin-bottom: 145px;
+	}
+
+	.orange ul {
+		padding: 0 2%;
+	}	
+
+	.orange li {
+		height: 185px;
+		width: 185px;
+
+		box-shadow: -20px 20px 40px #a03601;
+	}
+
+	.orange img {
+		height: 85px;
+		top: 10px;
+	}
+}
+
+@media (max-width: 950px) {
+
+	.orange {
+		height: 180px;
+		margin-bottom: 100px;
+	}
+
+	.orange ul {
+		padding: 0 1%;
+
+	}
+	
+	.orange img {
+		height:70px;
+		top: 5px;
+	}
+
+	#firstOrangeBox {
+		margin-left: 0;
+	}
+
+	.orange li {
+		height: 160px;
+		width: 160px;
+
+		border-radius: 50%;
+		box-shadow: none;
+
+		margin-left: 10px;
+	}
+
+	.orange h3 {
+		font-size: 1.2rem;
+		margin-top: 20px;
+	}
+}
+
+@media (max-width: 825px) {
+
+	.orange {
+		padding: 0;
+		padding-bottom: 20px;
+		margin-bottom: 5%;
+		box-sizing: border-box;
+		height: 250px;
+	}
+
+	.orange img {
+		height:70px;
+		top: 26px;
+	}
+
+	.box {
+		height: 120px;
+		width: 120px;
+
+		margin: 0 auto;
+
+		background-color: white;
+		border-radius: 50%;
+	}
+
+	.orange li {
+		background-color: #F95700;
+		color: #fff;
+
+		margin: auto 0;
+		padding: 0;
+
+		border-radius: 0;
+	}
+}
+
+@media (max-width: 680px) {
+	.orange {
+		padding-bottom: 50px;
+	}
+}
+
+@media (max-width: 680px) {
+
+	.orange {
+		height: 450px;
+		padding: 0 8%;
+		padding-top: 20px;
+	}
+
+	.orange ul {
+		flex-wrap: wrap;
+	}
+
+	#lastOrangeBox {
+		position: relative;
+		left: 35%;
+	}
+
+	.orange li {
+		margin-bottom: 50px;
+	}
+}
+
+@media (max-width: 609px)
+{
+	#lastOrangeBox {
+		position: static;
+	}
+}
+
+/* @media (max-width: 538px) */
+
+
+/*##########################
+		  CONTENT
+##########################*/
+
+.image img {
+	box-shadow: 30px 30px 60px #BFBFBF;
+}
+
+section article {
+	background:white;
+
+	height: 180px;
+	width: 350px;
+
+	padding: 15px 20px;
+
+	position: relative;
+
+	box-shadow: 30px 30px 60px #BFBFBF;
+}
+
+#firstBox, #thirdBox {
+	right: 25px;
+	top: 50px;
+}
+
+.sec2 img {
+	box-shadow: -30px 30px 60px #BFBFBF;	
+}
+
+#secondBox {
+	top: 50px;
+	left: 25px;
+
+	box-shadow: -30px 30px 60px #BFBFBF;
+}
+
+section article h3 {
+	margin:0;
+	padding-top: 2px;
+}
+
+section article p {
+	padding: 0;
+}
+
+section article h5 {
+	color:#F95700;
+
+	border: solid 2px #F95700;
+
+	text-align: center;
+	width: 100px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.sec1, .sec2, .sec3 {
+	display: flex;
+	justify-content: flex-start ;
+
+	margin: 12% 0;
+}
+
+.sec2 {
+	justify-content: flex-end;
+}
+
+.sec3 {
+	margin-bottom: 165px;
+}
+
+/* #second_box {
+	position: relative;;
+	left: 650px;
+} */
+
+section a {
+	color: #F95700;
+	font-size: 1.2em;
+}
+
+@media (max-width: 1000px) {
+
+	section article {
+		box-shadow: 15px 15px 30px #BFBFBF;
+	}
+
+	.image img {
+		box-shadow: 15px 15px 30px #BFBFBF;
+	}
+	
+	.sec2 img {
+		box-shadow: -15px 15px 30px #BFBFBF;	
+	}
+
+	#secondBox {
+		box-shadow: -15px 15px 30px #BFBFBF;
+	}
+
+	.sec3 {
+		margin-bottom: 100px;
+	}
+}
+
+@media (max-width: 880px) {
+
+	.image img {
+		height: 300px;
+	}
+
+	.sec1, .sec2, .sec3 {
+		margin: 8% 0;
+	}
+}
+
+@media (max-width: 728px) {
+	.image img {
+		height: 250px;
+	}	
+}
+
+@media (max-width: 631px) {
+
+	section article {	
+		position: static;
+		height: auto;
+		width: auto;
+
+		padding-bottom:0;
+
+		box-shadow: none;
+	}
+
+	#secondBox {
+		box-shadow: none;
+	}
+
+	.image img {
+		box-shadow: none;
+	}
+}
