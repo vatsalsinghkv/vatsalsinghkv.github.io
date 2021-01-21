@@ -157,9 +157,10 @@ nav li {
 		margin: 0 2%;
 	}
 
-	.burger{
-		 right: 2%;
+	.burger {
+		right: 2%;
 	}
+
 }
 
 @media (max-width:570px) {
@@ -328,6 +329,7 @@ footer
 	float: right;
 
 	width:60%;
+	height: 0;
 	margin: 0;
 	padding: 0;
 }
