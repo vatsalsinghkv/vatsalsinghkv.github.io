@@ -112,7 +112,7 @@ nav li {
 	margin: 5px;
 
 	background-color: #2F455C;
-	transition: transform .2s ease-out;
+	transition: all .2s ease-out;
 }
 
 @media (max-width:1200px) {
@@ -185,17 +185,17 @@ nav li {
 		
 		flex-direction: column;
 		height: 95vh;
-		width: 45%;
+		/* width: 45%; */
 
-	/* 	Another way to transform
-			width: 0;
-			overflow-x:hidden;
-	*/
+		/* Another way to transform */
+		width: 0;
+		overflow-x: hidden;
+	
 
 		position: absolute;
 		top: 44px;
 		left: calc(100% - 45%);
-		z-index: 1;
+		z-index: 10;
 
 		background-color: #fff;
 		
@@ -204,7 +204,7 @@ nav li {
 		padding: 15% 0 25% 0;
 
 		box-sizing: border-box;
-		transform: translateX(100%);
+		/* transform: translateX(100%); */
 		/* display: none; */
 
 		transition: all .35s ease-out;
@@ -223,7 +223,8 @@ nav li {
 /* add this class in nav ul 
 when burger is clicked */
 .burgerClicked {
-	transform: translateX(0);	
+	/* transform: translateX(0);	 */
+	width: 45%;
 	/* display: flex; */
 }
 /* we can't scroll down while nav is open */
