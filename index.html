@@ -1,32 +1,201 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Home</title>
+	
+	<meta charset="utf-8">
+	<meta name="description" content="Buy personalised sketches">
+	<meta name="viewport" content="width=device-width">
 
-    <link rel="stylesheet" href="Color Changer.css">
-    <title>Color Tester</title>
+	<link rel="stylesheet" href="css/global.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
 </head>
 
+
 <body>
-    <div class="container">
-        <h1>Color Tester</h1>
-        
-        <form>
-            <input type="color" id="colorPicker">
-            
-                <input type="text" id='colorValueOption' placeholder="#123456" required>
-            
-            <input type="button" value="Click"><br>
-        </form>
 
-        <input type="checkbox">Want to Enter Color Value?<br>
+	<nav>
+		<div class="container">
+			<a href="index.html"><img class="hlogo" alt="My Logo" src="Icons\Logo Head.png"></a>
+			<ul>
+				<li id="firstNav"><a id="active" href="index.html">Home</a></li>
+				<!-- <li><a href="blogs.html">Blogs</a></li> -->
+				<li><a href="mywork.html">My Work</a></li>
+				<li><a href="shop.html">Order Now</a></li>
+				<li><a href="aboutme.html">About Me</a></li>
+				<li><a href="contactme.html">Contact Me</a></li>
+			</ul>
+			<div class="burger">
+				<div class="lines line1"></div>
+				<div class="lines line2"></div>
+				<div class="lines line3"></div>
+			</div>
+		</div>
+	</nav>
 
-        <h3 id="printColor"><span></span></h3>
-    </div>
+	<!-- HEADER WITH BANNER -->
+	<div class="header">	
+		<h1>WELCOME</h1>
+		<h2>BUY PERSONALISED SKETCHES</h2>
+		<a href="shop.html"><input id="hbutton" type="button" value="ORDER NOW"/></a>
+	</div>
 
-    <script src="Color Changer.js"></script>
+	<!-- SIMPLE STEPS -->
+	<div class="heading">
+		<h2>simple steps</h2>
+	</div>
+
+	<!-- ORANGE BANNER -->
+	<div class="orange">
+		<!-- WHITE BOXES -->
+		<ul>
+			<li id="firstOrangeBox" style="z-index: 3;">
+				<div class="box">
+					<img id="upload" src="Icons/Uploadxxxhdpi.png">
+				</div>
+
+				<h3>Place Your Order</h3>
+				<p>No hidden charges</p>
+			</li>
+
+			<li style="z-index: 2;">
+				<div class="box">
+					<img id="pencil" src="Icons/Pencilxxxhdpi.png">
+				</div>
+
+				<h3>Drawing Starts</h3>
+				<p>Check the progress</p>
+			</li>
+
+			<li style="z-index: 0;">
+				<div class="box">
+					<img id="preview" src="Icons/Previewxxxhdpi.png">
+				</div>
+
+				<h3>Preview It</h3>
+				<p>Unlimited revisions</p>
+			</li>
+
+			<li id="lastOrangeBox">
+				<div class="box">
+					<img id="plane" src="Icons/plane.png">
+				</div>
+
+				<h3>Delivered</h3>
+				<p>Fast & smudge free</p>
+			</li>
+		</ul>
+	</div>
+
+	<!-- PART 3 -->
+	<section class="container"> 
+
+		<!-- ARTICLE 1 -->
+		<div class="sec1">
+			<div class="image">
+				<img src="/Images/fram1.png">
+			</div>
+
+			<article id="firstBox">
+					<h3>Place an order</h3>
+					<p>Buy professional graphite sketches at affordable prices.<br>Best gift for your loved ones.</p>
+					<h5><a href="shop.html">Order Now</a></h5>
+			</article>
+		</div>
+
+		<!-- ARTICLE 2 -->
+		<div class="sec2">
+			<article id="secondBox">
+					<h3>About</h3>
+					<p>I am a professional sketch artist,<br>I have been making sketches for more<br>than 4 years.</p>
+					<h5><a href="about.html">Know More</a></h5>
+			</article>
+
+			<div class="image">
+				<img src="/Images/frame2.png">
+			</div>
+		</div>
+
+		<!-- ARTICLE 3 -->
+		<div class="sec3">
+			<div class="image">
+				<img src="/Images/frame4.png">
+			</div>
+
+			<article id="thirdBox">
+					<h3>My Work</h3>
+					<p>I have completed many sketches till now,<br>I have posted all my work on my Instagram<br>Page.<p>
+					<h5><a href="mywork.html">Explore</a></h5>
+			</article>
+		</div>	
+
+	</section>
+
+	<footer>
+		<div class="container">
+			<div id="footerLogo">
+				<!-- LOGO -->
+				<a href="index.html"><img id="flogo" src="Icons\logo.png"></a>
+				<ul class="icons">
+					<li><a target="_blank" href="www.facebook.com/vatsal.arts"><img class="fb" alt="Facebook" src="Icons\facebook.png"></a></li>
+					<li><a target="_blank" href="www.instagram.com/vatsal_arts"><img class="insta" alt="Instagram" src="Icons\instagram.png"></a></li>
+					<li><a target="_blank" href="www.twitter.com/vatsal_arts"><img class="twitter" alt="Twitter" src="Icons\twitter.png"></a></li>
+					<li><a target="_blank" href="www.pinterest.com/vatsalsinghkv"><img class="pin" alt="Pinterest" src="Icons\pinterest.png"></a></li>					
+				</ul>
+			</div>
+			<ul id="footer_main">
+				<!-- INFO -->
+				<li class="link">
+					<h3>Information</h3>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<!-- <li><a href="blogs.html">Blogs</a></li> -->
+						<li><a href="mywork.html">My Work</a></li>
+						<li><a href="shop.html">Order Now</a></li>
+						<li><a href="aboutme.html">About Me</a></li>
+						<li><a href="contactme.html">Contact Me</a></li>
+					</ul>
+				</li>
+
+				<!-- HELPFUL LINKS -->
+				<li class="link">
+					<h3>Helpful Links</h3>
+					<ul>
+						<li><a href="service.html">Services</a></li>
+						<li><a href="termandconditions.html">Term & Conditions</a></li>
+						<li><a href="privacepolicy.html">Privacy Policy</a></li>
+					</ul>
+				</li>
+
+				<!-- ABOUT & CONTACT -->
+				<li class="link lastLink">
+					<h3>About Us</h3>
+					<p>We give you best sketches for<br>your loved ones, at affordable<br>prices.</p>
+
+					<h3>Contact Us</h3>
+					<span><img class="mssg" src="Icons/mssg.png"></span>
+					<address id="mail"><a href="mailto:vatsalsinghkv@gmail.com">vatsalsinghkv@gmail.com</a></address> <br>
+					<span><img class="call" src="Icons/call.png"></span>
+					<address><a href="tel:+917017800034">+91 7017 800 034</a></address>
+					<ul class="icons _icons">
+						<li><a target="_blank" href="www.facebook.com/vatsal.arts"><img class="fb" alt="Facebook" src="Icons\fb.png"></a></li>
+						<li><a target="_blank" href="www.instagram.com/vatsal_arts"><img class="insta" alt="Instagram" src="Icons\insta.png"></a></li>
+						<li><a target="_blank" href="www.twitter.com/vatsal_arts"><img class="twitter" alt="Twitter" src="Icons\tw.png"></a></li>
+						<li><a target="_blank" href="www.pinterest.com/vatsalsinghkv"><img class="pin" alt="Pinterest" src="Icons\pin.png"></a></li>					
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</footer>
+	
+	<div class="bottom">
+		<p>Copyright © <span id="date"></span> Vatsal Singh. All Rights Reserved</p>	</div>
+	
+	<script src="/js/script.js"></script>
 </body>
 
 </html>
